@@ -64,7 +64,7 @@ abstract class _CaptureState with Store {
   }
 
   Future<bool> store(code, description) async {
-    return await createProduct(code, description);
+    return true; //await createProduct(code, description);
   }
 
   CaptureModel get captureModel {
